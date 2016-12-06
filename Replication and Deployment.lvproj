@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -426,12 +426,12 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="rad_Deploy Image Wrapper_FB.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Image Wrapper_FB.vi"/>
 			<Item Name="rad_Check IF 903x.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Check IF 903x.vi"/>
 			<Item Name="rad_UnForceSafeMode.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_UnForceSafeMode.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RAD Application" Type="EXE">
@@ -514,19 +514,19 @@
 				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{1CB9B79D-FBCA-43F4-B990-65BD2145BDD0}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2015</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{448569AE-EE10-456F-B3A6-CA1D862E2E9C}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2016</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">true</Property>
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">true</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI System Web Server 15.0</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI System Web Server 16.0</Property>
 				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">true</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Logos 15.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Logos 5.8</Property>
 				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">true</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI TDM Streaming 15.0</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI TDM Streaming 16.0</Property>
 				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI VC2008MSMs</Property>
@@ -535,10 +535,10 @@
 				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI VC2010MSMs</Property>
 				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
 				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">true</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI Error Reporting 2015</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI Error Reporting 2016</Property>
 				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[0].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">NI</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/Builds/Installer</Property>
@@ -547,7 +547,7 @@
 				<Property Name="INST_productName" Type="Str">NI Replication And Deployment Utility 14.0</Property>
 				<Property Name="INST_productVersion" Type="Str">14.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15008024</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments</Property>
 				<Property Name="MSI_arpPhone" Type="Str">800-433-3488</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.ni.com/</Property>
