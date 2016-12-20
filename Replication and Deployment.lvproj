@@ -3,6 +3,7 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str">RIO_INSTALLED,True;CRI_INSTALLED,False;</Property>
 		<Property Name="IOScan.Faults" Type="Str">1.0,0;</Property>
@@ -50,10 +51,11 @@
 						<Item Name="rad_Check Firmware.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Check Firmware.vi"/>
 						<Item Name="rad_Deploy All Bitfiles.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy All Bitfiles.vi"/>
 						<Item Name="rad_Deploy Application Image.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Application Image.vi"/>
-						<Item Name="rad_Deploy Image Wrapper.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Image Wrapper.vi"/>
+						<Item Name="rad_Deploy Image Wrapper_FB.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Image Wrapper_FB.vi"/>
 						<Item Name="rad_Deploy Images in Parallel.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Images in Parallel.vi"/>
 						<Item Name="rad_Deploy Images with Progress.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Images with Progress.vi"/>
 						<Item Name="rad_Deployment Error Handler.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deployment Error Handler.vi"/>
+						<Item Name="rad_Check IF LinuxRT.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Check IF LinuxRT.vi"/>
 						<Item Name="rad_Detect NIAuth.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Detect NIAuth.vi"/>
 						<Item Name="rad_Discover Bitfiles In Image Zip.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Discover Bitfiles In Image Zip.vi"/>
 						<Item Name="rad_Enable FPGA.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Enable FPGA.vi"/>
@@ -64,6 +66,7 @@
 						<Item Name="rad_Modify and Deploy RT-INI.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Modify and Deploy RT-INI.vi"/>
 						<Item Name="rad_Reboot (IP) Wrapper.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Reboot (IP) Wrapper.vi"/>
 						<Item Name="rad_RePackNestedImage.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_RePackNestedImage.vi"/>
+						<Item Name="rad_UnForceSafeMode.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_UnForceSafeMode.vi"/>
 						<Item Name="rad_Update Display.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Update Display.vi"/>
 						<Item Name="rad_Update Target Deployment Status.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Update Target Deployment Status.vi"/>
 						<Item Name="rad_Verify Image Compatibility.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Verify Image Compatibility.vi"/>
@@ -426,9 +429,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="rad_Deploy Image Wrapper_FB.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Deploy Image Wrapper_FB.vi"/>
-			<Item Name="rad_Check IF 903x.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_Check IF 903x.vi"/>
-			<Item Name="rad_UnForceSafeMode.vi" Type="VI" URL="../subVIs/App Images/Deploy App Images/rad_UnForceSafeMode.vi"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
