@@ -94,6 +94,7 @@
 						<Item Name="rad_Retrieve RAD AppImage Properties from Target.vi" Type="VI" URL="../subVIs/App Images/Retrieve App Images/rad_Retrieve RAD AppImage Properties from Target.vi"/>
 						<Item Name="rad_Retrieve SysCfg AppImage Properties from Target.vi" Type="VI" URL="../subVIs/App Images/Retrieve App Images/rad_Retrieve SysCfg AppImage Properties from Target.vi"/>
 						<Item Name="rad_Merge AppImage Properties.vi" Type="VI" URL="../subVIs/App Images/Retrieve App Images/rad_Merge AppImage Properties.vi"/>
+						<Item Name="rad_Find App Img File.vi" Type="VI" URL="../subVIs/App Images/Retrieve App Images/rad_Find App Img File.vi"/>
 						<Item Name="rad_Select App Image Inheritance Dialog.vi" Type="VI" URL="../subVIs/App Images/Retrieve App Images/rad_Select App Image Inheritance Dialog.vi"/>
 					</Item>
 					<Item Name="TypeDefs" Type="Folder">
