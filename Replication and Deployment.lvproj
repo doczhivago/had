@@ -438,29 +438,26 @@
 			<Item Name="RAD Application" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{7D14A81A-E53C-4998-B1C4-A9ACCEE9DDDE}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AA07335B-8AD4-48AC-937C-281A67E33F5C}</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3BE514FF-1FF4-400A-A73A-71161C9C329F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">RAD Application</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/RAD</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{486A52BE-31E2-4D34-8023-C82BB52A7B36}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">14</Property>
-				<Property Name="Bld_version.minor" Type="Int">0</Property>
-				<Property Name="Bld_version.patch" Type="Int">0</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">RAD.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Builds/RAD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/RAD/RAD.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Builds</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/RAD</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6BC3103A-F6CE-483E-8474-2CBB83FDF4A4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{52F042F0-17F9-4420-A3BD-E14549B67F0E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Replication and Deployment Utility.vi</Property>
