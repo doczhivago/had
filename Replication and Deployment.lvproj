@@ -457,7 +457,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Builds/RAD</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{619C8477-EC94-45CE-BB01-D09FE5BE1DC2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95F44F49-C3F8-4B6F-8DBF-3267CEE3E099}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Replication and Deployment Utility.vi</Property>
@@ -560,8 +560,7 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">NI</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/builds/RAD</Property>
 				<Property Name="INST_buildSpecName" Type="Str">RAD Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{3376BF9B-9AE9-41ED-ABCE-050647E35E81}</Property>
 				<Property Name="INST_productName" Type="Str">NI Replication And Deployment Utility 16.0</Property>
